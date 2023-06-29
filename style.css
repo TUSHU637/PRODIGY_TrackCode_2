@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height:100vh;
+}
+
+.to-do-box{
+    background-color:antiquewhite;
+    margin-top:5rem;
+    height:40rem;
+    width:50rem;
+    
+}
+.text{
+    height:4rem;
+    width:95%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin:1rem;
+    border:none;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline:none;
+}
+.to-do-task{
+    height:calc(100% - 4rem - 1rem - 1rem - 7px);
+    
+}
+.task{resize: both;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    margin:1rem;
+    color:white;
+    display: flex;
+    border-radius: 7px;
+    
+}
+
+.rBtn{
+    width: 50rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.rbtn{
+    width:1.5rem;
+    border:1px solid white;
+    border-radius: 50%;
+    text-align: center;
+}
